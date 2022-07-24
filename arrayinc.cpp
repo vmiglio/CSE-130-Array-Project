@@ -10,7 +10,7 @@ int main() {
 	for (int k = 0; k < 100000; k++) {
 		srand(time(NULL));
 		for (int i = 0; i < 36; i++) {
-			cout<< array[i];
+			cout<< array[i] << " ";
 		}
 		cout << endl;
 	}
