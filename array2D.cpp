@@ -21,7 +21,7 @@ int main() {
 		}
 	}
 	int end = time(NULL);
-	cout << "that took" << end - start << "seconds" << endl;
+	cout << "that took " << end - start << "seconds" << endl;
 
 	return 0;
 }
