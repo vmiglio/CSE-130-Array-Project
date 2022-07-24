@@ -12,7 +12,6 @@ int main() {
 	};
 
 	for (int k = 0; k < 100000; k++) {
-		srand(time(NULL));
 		for (int i = 0; i < 2; i++) {
 			for (int j = 0; j < 18; j++) {
 				cout << arr[i][j] << " ";
@@ -21,7 +20,7 @@ int main() {
 		}
 	}
 	int end = time(NULL);
-	cout << "that took " << end - start << " seconds" << endl;
+	cout << "That took " << end - start << " seconds" << endl;
 
 	return 0;
 }
