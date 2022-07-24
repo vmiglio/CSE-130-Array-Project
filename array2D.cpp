@@ -15,7 +15,7 @@ int main() {
 		srand(time(NULL));
 		for (int i = 0; i < 2; i++) {
 			for (int j = 0; j < 18; j++) {
-				cout << arr[i][j];
+				cout << arr[i][j] << " ";
 			}
 			cout << endl;
 		}
